@@ -1,4 +1,4 @@
-FROM debian:10 
+FROM debian:bullseye 
 
 RUN apt-get -y -qq update && \
     apt-get -y -qq upgrade && \
